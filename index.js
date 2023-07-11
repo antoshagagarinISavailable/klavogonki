@@ -4,8 +4,8 @@ const arr = "qwertyuiop[]asdfghjkl;zxcvbnm,./{}<>?:()iuercvbiuretcvbn".split(
 const p = document.querySelector("p");
 
 function random(max) {
+  max = Math.floor(max);
   let min = 0;
-  let max = Math.floor(max);
   let res = Math.floor(Math.random() * (max - min + 1)) + min;
   if (arr[res] === p.textContent) {
     res = Math.floor(Math.random() * (max - min + 1)) + min;
