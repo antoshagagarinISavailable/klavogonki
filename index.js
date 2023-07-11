@@ -1,6 +1,4 @@
-const arr = "qwertyuiop[]asdfghjkl;zxcvbnm,./{}<>?:()iuercvbiuretcvbn".split(
-  ""
-);
+const arr = "qwertyuiop[]asdfghjkl;xcvbnm,./{}<>?:()iuercvbiuretcvbn".split("");
 const p = document.querySelector("p");
 
 function random(digit) {
