@@ -1,4 +1,6 @@
-const arr = "qwertyuiop[]asdfghjkl;zxcvbnm,./{}<>?:()".split("");
+const arr = "qwertyuiop[]asdfghjkl;zxcvbnm,./{}<>?:()iuercvbiuretcvbn".split(
+  ""
+);
 const p = document.querySelector("p");
 
 function random(max) {
