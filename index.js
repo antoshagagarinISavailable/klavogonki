@@ -1,6 +1,6 @@
-const arr = "qwertyuiop[]asdfghjkl;xcvbnm,./{}<>?:()iuercvbiuretcvbn-+=_"
-  .toUpperCase()
-  .split("");
+const arr = "qwertyuiop[]asdfghjkl;xcvbnm,./{}<>?:()iuercvbiuretcvbn-+=_".split(
+  ""
+);
 const p = document.querySelector("p");
 
 function random(digit) {
@@ -17,7 +17,7 @@ function random(digit) {
 random(arr.length - 1);
 
 window.addEventListener("keydown", (e) => {
-  if (e.key.toUpperCase() == p.textContent) {
+  if (e.key == p.textContent) {
     random(arr.length - 1);
     p.style.color = "#aaa";
   } else if (e.key !== p.textContent && e.key !== "Shift") {
