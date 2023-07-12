@@ -22,3 +22,17 @@ p {
   color: #aaa;
   font-size: 20vmax;
 }
+.errorAnim {
+  animation: errorAnim 200ms linear;
+}
+@keyframes errorAnim {
+  0% {
+    color: #aaa;
+  }
+  50% {
+    color: tomato;
+  }
+  100% {
+    color: #aaa;
+  }
+}

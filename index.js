@@ -19,8 +19,11 @@ random(arr.length - 1);
 window.addEventListener("keydown", (e) => {
   if (e.key == p.textContent) {
     random(arr.length - 1);
-    p.style.color = "#aaa";
   } else if (e.key !== p.textContent && e.key !== "Shift") {
-    p.style.color = "tomato";
+    p.classList.add("errorAnim");
   }
+});
+
+p.addEventListener("animationend", () => {
+  p.classList.remove("errorAnim");
 });
