@@ -1,7 +1,5 @@
 //создаем массив тех симолов, что будут в тренажере
-const arr = "qwertyuiop[]asdfghjkl;xcvbnm,./{}<>?:()iuercvbiuretcvbn-+=_".split(
-  ""
-);
+const arr = "qwertyuiop[]asdfghjkl;'`xcvbnm,./".split("");
 const p = document.querySelector("p");
 //рандомный рендер символа
 function random(digit) {
