@@ -21,6 +21,9 @@ p {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #aaa;
   font-size: 20vmax;
+
+  cursor: none;
+  user-select: none;
 }
 .errorAnim {
   animation: errorAnim 200ms linear;
